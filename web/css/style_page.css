@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+.post:nth-child(3){
+}
+/*版面結構*/
+body{
+	padding: 0 10px;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur), progress;
+	
+	background-image:url('../images/蘋果壁紙49頁B.png');
+	background-image:url('../images/壁紙C.png');
+	
+	background-attachment:scroll; /*背景圖片不影響*/
+	background-attachment:fixed;   /*隨滑鼠滾動*/
+	
+	background-repeat:no-repeat;
+　   background-repeat:no-repeat;
+　   background-color: 背景顏色;
+	
+}
+#wrapper{
+	width: 880px;
+	margin: 0 auto;  /*不設外高*/
+}
+
+#header{
+	/*繼承width*/
+	height: 70px;      /*70+20+20=110*/   
+	margin: 20px 0;    /*無顏色*/
+	/*background-color: #b7cfff;  */
+}
+
+#logoA{
+	/*float*/
+	width: 430px;
+	/*  顯示區塊---調整文字需要高度---非常重要
+		height: 70px;      				
+		background-color: #b7cfff;
+	*/
+	line-height:  59px;			      /*文字--高度置中*/  
+	
+	/*background-color: #b7cfff;*/
+
+
+}
+#logoA h1:hover{
+	font-size: 61px;
+}
+
+#logoB{
+	/*float*/
+	width: 450px;  /*430+20*/
+	
+	border-radius:  11px;
+	background-color: #bccfd0;
+	margin: 25px 0px 0 0px;
+}
+#logoB img{
+	
+	/*display:block;*/   /*更換元素為block*/   /*可以自訂寬高*/
+	width:  35px;
+	height: 35px;
+	/*background-color: #fcbcb8;*/
+	margin: 5px 20px 5px 20px;
+	
+
+	
+	float:left;     /*用於2層式DIV*/ /*漂浮--向左對齊*/   /*所以不會換行A標籤成一行*/
+	
+	
+}
+
+
+
+
+
+
+
+
+#nav{
+	/*繼承width*/
+	height: 40px;
+	background-color: #b7cfff;
+	/*text-transform:uppercase;      英文字母都是大血*/
+	/*font-style:italic;             字體斜線*/
+	padding: 0 110px;   			/*和寬高一樣---會有底色*/
+	margin: 0;
+	
+	border-radius:  19px 19px 0 0; 
+}
+
+#nav li a{
+	
+	display:block;   /*更換元素為block*/   /*可以自訂寬高*/
+	width:  170px;
+	height: 40px;
+	background-color: #fcbcb8;
+	
+	float:left;      /*漂浮--向左對齊*/   /*所以不會換行A標籤成一行*/
+	
+	font-size: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight:bold;
+	color: #9f4f6a;
+	
+	line-height:  40px;    		/*依照高度--重新調整*/
+}
+#nav li a:hover{
+	background-color: #e5ade8;
+	
+	/*cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur), progress;*/   /*覆蓋效果*/
+	cursor: url(https://drive.google.com/uc?authuser=0&id=1Fj7DqVw1Y_3m6XpOgaJ9BxpG0KdSXJWM&export=download), progress;
+}
+
+
+
+#banner{
+	/*繼承width*/
+	height: 310px;
+	
+	margin: 0 0 20px 0;
+	
+
+}
+#banner img{
+	
+    /*border-radius: 50%;*/
+	
+	/*border-radius:  9px;*/
+    
+	/*background-repeat: no-repeat;*/
+}
+#contentA{
+	height:auto;
+}
+#contentB{
+	
+}
+#contentC{
+}
+
+.TextBlock{
+	float:left;
+	width:  880px;
+	height: 40px;
+	
+	background-color: #a04863;
+	background-color:#644850;
+	color:#fcbcb8;
+	font-weight:bold; 	 /*粗體*/
+}
+
+.postA{
+	float:left;
+	padding: 20px 20px 0 20px;/*  40*/
+	width:  390px;   /*390+40=430*/
+	height: 290px;   /*290+40=330*/
+	
+	background-color: #e7bdc7;
+}
+.postA img{
+	float:left;
+	width:390px;	 /*430-40*/
+	height:150px;    /*190-40*/
+	
+	border-radius:  9px;
+	/*padding: 20px;*/  /*會和border-radius衝突*/  /*而且這是圖內顏色-語法也錯誤*/
+}
+.postA h2{
+	margin-top: 20px;
+	float:left;
+	width:100%;		/*預設是auto*/
+	height: 50px;
+	/*background-color: #5CD952;*/
+	color:#ec89a5;
+	font-weight:bold;
+}
+.postA a{
+	margin: 20px 130px;   /*150-20=130  因為A有padd*/
+	text-align:center;
+	float:left;
+	width: 130px;		/*預設是auto*/
+	height: 30px;
+	background-color: #feebb6;
+	
+	font-size: 24px;
+	line-height:  30px;    		/*依照高度--重新調整*/
+	color:#e59f3a;
+	
+	border-radius:  11px;
+}
+.postA:hover{
+	background-color: #d2fafc;
+}
+.postA:hover h2{
+	color: #28d9ca;
+}
+
+.postB{
+	float:left;
+	padding: 20px 20px 0 20px;/*  40*/
+	width:  240px;				/*240+40=280*/
+	height: 290px;				/*290+40=330*/
+	background-color: #e7bdc7;
+	
+
+}
+.postB img{
+	/*display:block;*/
+	
+	float:left;
+	width:240px;     /*280-40*/
+	height:150px;	 /*190-40*/
+	
+	/*padding: 20px;*/
+	border-radius:  9px;
+}
+.postB h2{
+	margin-top: 20px;
+	float:left;
+	width:100%;		/*預設是auto*/
+	height: 50px;
+	/*background-color: #5CD952;*/
+	color:#ec89a5;
+	font-weight:bold;
+}
+.postB a{
+	margin: 20px 55px;	/*75-20=55  因為A有padd*/
+	text-align:center;
+	float:left;
+	width: 130px;		/*預設是auto*/
+	height: 30px;
+	background-color: #feebb6;
+	
+	font-size: 24px;
+	line-height:  30px;    		/*依照高度--重新調整*/
+	color:#e59f3a;
+	
+	border-radius:  11px;
+}
+.postB:hover{
+	background-color: #d2fafc;
+}
+.postB:hover h2{
+	color: #28d9ca;
+}
+
+
+#footer{
+	width:  880px;
+	height: 40px;
+	
+	background-color: #a04863;
+	color:#fcbcb8;
+	font-weight:bold; 	 /*粗體*/
+}
+#footer li a{
+	float:left;
+	
+	display:block;   /*更換元素為block*/   /*可以自訂寬高*/
+	width:  280px;
+	height: 40px;
+	background-color: #fcbcb8;
+	background-color: #a04863;
+
+	
+	float:left;      /*漂浮--向左對齊*/   /*所以不會換行A標籤成一行*/
+	
+	font-size: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight:bold;
+	color:#fd7e8b;
+	
+	line-height:  40px;    		/*依照高度--重新調整*/
+}
+#footer li a:hover{
+	/*background-color: #e5ade8;*/
+	color:#e5ade8;
+}
+/*TOP圖*/
+#gotop{
+	position:fixed;
+	right:20px;
+	bottom:50px;
+	z-index:100;
+}
