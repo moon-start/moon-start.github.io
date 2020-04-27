@@ -1,6 +1,0 @@
-body {
-    margin: 0;
-    background: url(/images/bgv3-42.jpg) #d1f0f7 no-repeat;
-    background-position: 0px 22px;
-    cursor: url(http://cur.cursors-4u.net/cursors/cur-2/cur116.cur), progress;
-}
